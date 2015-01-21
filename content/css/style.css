@@ -3,4 +3,9 @@
 	height: 200px;
 	background-color: #ecf0f1;
 	margin: 10% auto;
+	transition: transform 0.5s ease;
+}
+
+.square:hover {
+	transform: rotate(90deg);
 }
