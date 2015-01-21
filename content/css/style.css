@@ -3,9 +3,16 @@
 	height: 200px;
 	background-color: #bdc3c7;
 	margin: 10% auto;
+}
+
+.square.2d {
 	transition: transform 0.5s ease;
 }
 
-.square:hover {
+.square.2d:hover {
 	transform: rotate(90deg);
+}
+
+.square.3d {
+	
 }
