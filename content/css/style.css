@@ -1,7 +1,8 @@
 .gear {
 	width: 200px;
 	height: 200px;
-	background-color: #bdc3c7;
+	/*background-color: #bdc3c7;*/
+	background: url('content/img/gear.png') no-repeat;
 	margin: 10% auto;
 	transition: transform 0.5s ease;
 }
