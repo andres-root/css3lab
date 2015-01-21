@@ -14,6 +14,7 @@
 
 
 .square {
+	text-align: center;
 	width: 200px;
 	height: 200px;
 	background-color: #bdc3c7;
