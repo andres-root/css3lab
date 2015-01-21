@@ -5,14 +5,14 @@
 	margin: 10% auto;
 }
 
-.square.2d {
+.2d {
 	transition: transform 0.5s ease;
 }
 
-.square.2d:hover {
+.2d:hover {
 	transform: rotate(90deg);
 }
 
 .square.3d {
-	
+
 }
