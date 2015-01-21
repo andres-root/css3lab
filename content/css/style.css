@@ -23,7 +23,7 @@
 }
 
 .square > h3 {
-	display: none;
+	visibility: hidden;
 }
 
 .square:hover {
@@ -31,5 +31,5 @@
 }
 
 .square:hover > h3 {
-	display: block;
+	visibility: visible;
 }
