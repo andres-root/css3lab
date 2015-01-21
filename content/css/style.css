@@ -22,6 +22,10 @@
 	transition: transform 0.5s ease;
 }
 
+.square h1 {
+	display: none;
+}
+
 .square:hover {
 	transform: rotateX(360deg);
 }
