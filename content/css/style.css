@@ -3,16 +3,21 @@
 	height: 200px;
 	background-color: #bdc3c7;
 	margin: 10% auto;
-}
-
-.2d {
 	transition: transform 0.5s ease;
 }
 
-.2d:hover {
+.square:hover {
 	transform: rotate(90deg);
 }
 
-.square.3d {
+.cube {
+	width: 200px;
+	height: 200px;
+	background-color: #bdc3c7;
+	margin: 10% auto;
+	transition: transform 0.5s ease;
+}
 
+.cube:hover {
+	transform: rotate(90deg);
 }
