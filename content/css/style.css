@@ -4,6 +4,7 @@
 	background-color: #bdc3c7;
 	margin: 10% auto;
 	transition: transform 0.5s ease;
+	-webkit-transition: transform 0.5s ease;
 }
 
 .square:hover {
