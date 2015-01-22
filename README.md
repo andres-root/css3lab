@@ -1,3 +1,3 @@
 # Galaxy
 
-Demo: http://andres-root.github.io/galaxy/
+Demo: http://andres-root.github.io/css3lab/
