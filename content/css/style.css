@@ -33,8 +33,8 @@
 }
 
 .animate {
-	width: 200px;
-	height: 200px;
+	width: 70px;
+	height: 70px;
 	position: absolute;
 	border-radius: 500px;
 	background-color: #8e44ad;
@@ -44,16 +44,16 @@
 }
 
 @keyframes move-it {
-	from { left: 100px;}
-	to { left: 700px;}
+	from { left: 10%;}
+	to { left: 90%;}
 }
 
 @-webkit-keyframes move-it {
-	from { left: 100px;}
-	to { left: 700px;}
+	from { left: 10%;}
+	to { left: 90%;}
 }
 
 @-moz-keyframes move-it {
-	from { left: 100px;}
-	to { left: 700px;}
+	from { left: 10%;}
+	to { left: 90%;}
 }
