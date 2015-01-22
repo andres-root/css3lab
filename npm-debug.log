@@ -1,0 +1,798 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bower',
+1 verbose cli   'gulp',
+1 verbose cli   'karma-cli',
+1 verbose cli   'nodemon' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'bower', null ]
+5 verbose cache add name=undefined spec="bower" args=["bower",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'bower',
+6 verbose parsed url   path: 'bower',
+6 verbose parsed url   href: 'bower' }
+7 verbose cache add [ 'gulp', null ]
+8 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'gulp',
+9 verbose parsed url   path: 'gulp',
+9 verbose parsed url   href: 'gulp' }
+10 verbose cache add [ 'karma-cli', null ]
+11 verbose cache add name=undefined spec="karma-cli" args=["karma-cli",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'karma-cli',
+12 verbose parsed url   path: 'karma-cli',
+12 verbose parsed url   href: 'karma-cli' }
+13 verbose cache add [ 'nodemon', null ]
+14 verbose cache add name=undefined spec="nodemon" args=["nodemon",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'nodemon',
+15 verbose parsed url   path: 'nodemon',
+15 verbose parsed url   href: 'nodemon' }
+16 silly lockFile 206e3ce5-bower bower
+17 verbose lock bower /Users/andlujan/.npm/206e3ce5-bower.lock
+18 silly lockFile 9750c68d-gulp gulp
+19 verbose lock gulp /Users/andlujan/.npm/9750c68d-gulp.lock
+20 silly lockFile aa100f68-karma-cli karma-cli
+21 verbose lock karma-cli /Users/andlujan/.npm/aa100f68-karma-cli.lock
+22 silly lockFile 1625b929-nodemon nodemon
+23 verbose lock nodemon /Users/andlujan/.npm/1625b929-nodemon.lock
+24 silly lockFile 206e3ce5-bower bower
+25 silly lockFile 206e3ce5-bower bower
+26 silly lockFile 9750c68d-gulp gulp
+27 silly lockFile 9750c68d-gulp gulp
+28 silly lockFile aa100f68-karma-cli karma-cli
+29 silly lockFile aa100f68-karma-cli karma-cli
+30 silly lockFile 1625b929-nodemon nodemon
+31 silly lockFile 1625b929-nodemon nodemon
+32 verbose addNamed [ 'bower', '' ]
+33 verbose addNamed [ null, '*' ]
+34 silly lockFile 1240aab1-bower bower@
+35 verbose lock bower@ /Users/andlujan/.npm/1240aab1-bower.lock
+36 verbose addNamed [ 'gulp', '' ]
+37 verbose addNamed [ null, '*' ]
+38 silly lockFile 72f4391e-gulp gulp@
+39 verbose lock gulp@ /Users/andlujan/.npm/72f4391e-gulp.lock
+40 verbose addNamed [ 'karma-cli', '' ]
+41 verbose addNamed [ null, '*' ]
+42 silly lockFile 8f6f2c72-karma-cli karma-cli@
+43 verbose lock karma-cli@ /Users/andlujan/.npm/8f6f2c72-karma-cli.lock
+44 verbose addNamed [ 'nodemon', '' ]
+45 verbose addNamed [ null, '*' ]
+46 silly lockFile 4f5e51c6-nodemon nodemon@
+47 verbose lock nodemon@ /Users/andlujan/.npm/4f5e51c6-nodemon.lock
+48 silly addNameRange { name: 'bower', range: '*', hasData: false }
+49 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+50 silly addNameRange { name: 'karma-cli', range: '*', hasData: false }
+51 silly addNameRange { name: 'nodemon', range: '*', hasData: false }
+52 verbose request where is /nodemon
+53 verbose request registry https://registry.npmjs.org/
+54 verbose request id 654a6a2ca90c9453
+55 verbose url raw /nodemon
+56 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+57 verbose url resolved https://registry.npmjs.org/nodemon
+58 verbose request where is https://registry.npmjs.org/nodemon
+59 info trying registry request attempt 1 at 14:37:51
+60 http GET https://registry.npmjs.org/nodemon
+61 verbose request where is /karma-cli
+62 verbose request registry https://registry.npmjs.org/
+63 verbose url raw /karma-cli
+64 verbose url resolving [ 'https://registry.npmjs.org/', './karma-cli' ]
+65 verbose url resolved https://registry.npmjs.org/karma-cli
+66 verbose request where is https://registry.npmjs.org/karma-cli
+67 info trying registry request attempt 1 at 14:37:51
+68 http GET https://registry.npmjs.org/karma-cli
+69 verbose request where is /gulp
+70 verbose request registry https://registry.npmjs.org/
+71 verbose url raw /gulp
+72 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+73 verbose url resolved https://registry.npmjs.org/gulp
+74 verbose request where is https://registry.npmjs.org/gulp
+75 info trying registry request attempt 1 at 14:37:51
+76 verbose etag "AB2HPBXQS2ZIHVL2J3NK7CBD6"
+77 http GET https://registry.npmjs.org/gulp
+78 verbose request where is /bower
+79 verbose request registry https://registry.npmjs.org/
+80 verbose url raw /bower
+81 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+82 verbose url resolved https://registry.npmjs.org/bower
+83 verbose request where is https://registry.npmjs.org/bower
+84 info trying registry request attempt 1 at 14:37:51
+85 verbose etag "CVV4FAN5PY7LYZ78VS4W0FA8W"
+86 http GET https://registry.npmjs.org/bower
+87 http 200 https://registry.npmjs.org/karma-cli
+88 silly registry.get cb [ 200,
+88 silly registry.get   { date: 'Thu, 22 Jan 2015 19:37:52 GMT',
+88 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+88 silly registry.get     etag: '"EL7TVPQ9INNQ14URXMB5HN4GZ"',
+88 silly registry.get     'content-type': 'application/json',
+88 silly registry.get     'cache-control': 'max-age=60',
+88 silly registry.get     'content-length': '5934',
+88 silly registry.get     'accept-ranges': 'bytes',
+88 silly registry.get     via: '1.1 varnish',
+88 silly registry.get     age: '57',
+88 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+88 silly registry.get     'x-cache': 'HIT',
+88 silly registry.get     'x-cache-hits': '1',
+88 silly registry.get     'x-timer': 'S1421955472.550700,VS0,VE0',
+88 silly registry.get     vary: 'Accept',
+88 silly registry.get     'keep-alive': 'timeout=10, max=50',
+88 silly registry.get     connection: 'Keep-Alive' } ]
+89 silly addNameRange number 2 { name: 'karma-cli', range: '*', hasData: true }
+90 silly addNameRange versions [ 'karma-cli', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4' ] ]
+91 verbose addNamed [ 'karma-cli', '0.0.4' ]
+92 verbose addNamed [ '0.0.4', '0.0.4' ]
+93 silly lockFile 0ef08b95-karma-cli-0-0-4 karma-cli@0.0.4
+94 verbose lock karma-cli@0.0.4 /Users/andlujan/.npm/0ef08b95-karma-cli-0-0-4.lock
+95 silly lockFile ad31c554-rg-karma-cli-karma-cli-0-0-4-tgz https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz
+96 verbose lock https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz /Users/andlujan/.npm/ad31c554-rg-karma-cli-karma-cli-0-0-4-tgz.lock
+97 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz',
+97 verbose addRemoteTarball   '1840a6a2545754bb02100f09229cdd9963a6cf68' ]
+98 info retry fetch attempt 1 at 14:37:52
+99 verbose fetch to= /var/folders/gh/nsk4pkrn7l55491pjm6ssxcjy2q68k/T/npm-50889-H58UgZS1/registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz
+100 http GET https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz
+101 http 200 https://registry.npmjs.org/gulp
+102 silly registry.get cb [ 200,
+102 silly registry.get   { date: 'Thu, 22 Jan 2015 19:37:52 GMT',
+102 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+102 silly registry.get     etag: '"ETMOK7EH16N476EH0TMMCFW1Z"',
+102 silly registry.get     'content-type': 'application/json',
+102 silly registry.get     'cache-control': 'max-age=60',
+102 silly registry.get     'content-length': '97056',
+102 silly registry.get     'accept-ranges': 'bytes',
+102 silly registry.get     via: '1.1 varnish',
+102 silly registry.get     age: '34',
+102 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+102 silly registry.get     'x-cache': 'HIT',
+102 silly registry.get     'x-cache-hits': '2',
+102 silly registry.get     'x-timer': 'S1421955472.554373,VS0,VE0',
+102 silly registry.get     vary: 'Accept',
+102 silly registry.get     'keep-alive': 'timeout=10, max=50',
+102 silly registry.get     connection: 'Keep-Alive' } ]
+103 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+104 silly addNameRange versions [ 'gulp',
+104 silly addNameRange   [ '0.0.1',
+104 silly addNameRange     '0.0.2',
+104 silly addNameRange     '0.0.3',
+104 silly addNameRange     '0.0.4',
+104 silly addNameRange     '0.0.5',
+104 silly addNameRange     '0.0.7',
+104 silly addNameRange     '0.0.8',
+104 silly addNameRange     '0.0.9',
+104 silly addNameRange     '0.1.0',
+104 silly addNameRange     '0.2.0',
+104 silly addNameRange     '1.0.0',
+104 silly addNameRange     '1.1.0',
+104 silly addNameRange     '1.2.0',
+104 silly addNameRange     '1.2.1',
+104 silly addNameRange     '2.0.0',
+104 silly addNameRange     '2.0.1',
+104 silly addNameRange     '2.1.0',
+104 silly addNameRange     '2.2.0',
+104 silly addNameRange     '2.3.0',
+104 silly addNameRange     '2.4.0',
+104 silly addNameRange     '2.4.1',
+104 silly addNameRange     '2.6.0',
+104 silly addNameRange     '2.6.1',
+104 silly addNameRange     '2.7.0',
+104 silly addNameRange     '3.0.0',
+104 silly addNameRange     '3.1.1',
+104 silly addNameRange     '3.1.2',
+104 silly addNameRange     '3.1.3',
+104 silly addNameRange     '3.1.4',
+104 silly addNameRange     '3.2.0',
+104 silly addNameRange     '3.2.1',
+104 silly addNameRange     '3.2.2',
+104 silly addNameRange     '3.2.3',
+104 silly addNameRange     '3.2.4',
+104 silly addNameRange     '3.2.5',
+104 silly addNameRange     '3.3.0',
+104 silly addNameRange     '3.3.1',
+104 silly addNameRange     '3.3.2',
+104 silly addNameRange     '3.3.4',
+104 silly addNameRange     '3.4.0',
+104 silly addNameRange     '3.5.0',
+104 silly addNameRange     '3.5.1',
+104 silly addNameRange     '3.5.2',
+104 silly addNameRange     '3.5.5',
+104 silly addNameRange     '3.5.6',
+104 silly addNameRange     '3.6.0',
+104 silly addNameRange     '3.6.1',
+104 silly addNameRange     '3.6.2',
+104 silly addNameRange     '3.7.0',
+104 silly addNameRange     '3.8.0',
+104 silly addNameRange     '3.8.1',
+104 silly addNameRange     '3.8.2',
+104 silly addNameRange     '3.8.3',
+104 silly addNameRange     '3.8.4',
+104 silly addNameRange     '3.8.5',
+104 silly addNameRange     '3.8.6',
+104 silly addNameRange     '3.8.7',
+104 silly addNameRange     '3.8.8',
+104 silly addNameRange     '3.8.9',
+104 silly addNameRange     '3.8.10' ] ]
+105 verbose addNamed [ 'gulp', '3.8.10' ]
+106 verbose addNamed [ '3.8.10', '3.8.10' ]
+107 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+108 verbose lock gulp@3.8.10 /Users/andlujan/.npm/f843d0d7-gulp-3-8-10.lock
+109 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+110 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+111 silly lockFile 72f4391e-gulp gulp@
+112 silly lockFile 72f4391e-gulp gulp@
+113 http 200 https://registry.npmjs.org/bower
+114 silly registry.get cb [ 200,
+114 silly registry.get   { date: 'Thu, 22 Jan 2015 19:37:52 GMT',
+114 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+114 silly registry.get     etag: '"BM4XOUYLXN0EGW9Q6SWUA1ZLW"',
+114 silly registry.get     'content-type': 'application/json',
+114 silly registry.get     'cache-control': 'max-age=60',
+114 silly registry.get     'content-length': '106041',
+114 silly registry.get     'accept-ranges': 'bytes',
+114 silly registry.get     via: '1.1 varnish',
+114 silly registry.get     age: '2',
+114 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+114 silly registry.get     'x-cache': 'HIT',
+114 silly registry.get     'x-cache-hits': '1',
+114 silly registry.get     'x-timer': 'S1421955472.560326,VS0,VE0',
+114 silly registry.get     vary: 'Accept',
+114 silly registry.get     'keep-alive': 'timeout=10, max=50',
+114 silly registry.get     connection: 'Keep-Alive' } ]
+115 http 200 https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz
+116 http 200 https://registry.npmjs.org/nodemon
+117 silly registry.get cb [ 200,
+117 silly registry.get   { date: 'Thu, 22 Jan 2015 19:37:52 GMT',
+117 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+117 silly registry.get     etag: '"IUJX0OH51UFRZBQNJN47SWDK"',
+117 silly registry.get     'content-type': 'application/json',
+117 silly registry.get     'cache-control': 'max-age=60',
+117 silly registry.get     'content-length': '141664',
+117 silly registry.get     'accept-ranges': 'bytes',
+117 silly registry.get     via: '1.1 varnish',
+117 silly registry.get     age: '0',
+117 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+117 silly registry.get     'x-cache': 'HIT',
+117 silly registry.get     'x-cache-hits': '1',
+117 silly registry.get     'x-timer': 'S1421955472.547458,VS0,VE76',
+117 silly registry.get     vary: 'Accept',
+117 silly registry.get     'keep-alive': 'timeout=10, max=50',
+117 silly registry.get     connection: 'Keep-Alive' } ]
+118 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+119 silly addNameRange versions [ 'bower',
+119 silly addNameRange   [ '0.1.0',
+119 silly addNameRange     '0.1.2',
+119 silly addNameRange     '0.1.3',
+119 silly addNameRange     '0.2.0',
+119 silly addNameRange     '0.3.0',
+119 silly addNameRange     '0.3.1',
+119 silly addNameRange     '0.3.2',
+119 silly addNameRange     '0.4.0',
+119 silly addNameRange     '0.5.0',
+119 silly addNameRange     '0.5.1',
+119 silly addNameRange     '0.6.0',
+119 silly addNameRange     '0.6.1',
+119 silly addNameRange     '0.6.2',
+119 silly addNameRange     '0.6.3',
+119 silly addNameRange     '0.6.4',
+119 silly addNameRange     '0.6.5',
+119 silly addNameRange     '0.6.6',
+119 silly addNameRange     '0.6.7',
+119 silly addNameRange     '0.6.8',
+119 silly addNameRange     '0.7.0',
+119 silly addNameRange     '0.7.1',
+119 silly addNameRange     '0.8.0',
+119 silly addNameRange     '0.8.1',
+119 silly addNameRange     '0.8.2',
+119 silly addNameRange     '0.8.3',
+119 silly addNameRange     '0.8.4',
+119 silly addNameRange     '0.8.5',
+119 silly addNameRange     '0.8.6',
+119 silly addNameRange     '0.9.0',
+119 silly addNameRange     '0.9.1',
+119 silly addNameRange     '0.9.2',
+119 silly addNameRange     '0.10.0',
+119 silly addNameRange     '1.0.0',
+119 silly addNameRange     '1.0.1',
+119 silly addNameRange     '1.0.2',
+119 silly addNameRange     '1.0.3',
+119 silly addNameRange     '1.1.0',
+119 silly addNameRange     '1.1.1',
+119 silly addNameRange     '1.1.2',
+119 silly addNameRange     '1.2.0',
+119 silly addNameRange     '1.2.1',
+119 silly addNameRange     '1.2.2',
+119 silly addNameRange     '1.2.3',
+119 silly addNameRange     '1.2.4',
+119 silly addNameRange     '1.2.5',
+119 silly addNameRange     '1.2.6',
+119 silly addNameRange     '1.2.7',
+119 silly addNameRange     '1.2.8',
+119 silly addNameRange     '1.3.0',
+119 silly addNameRange     '1.3.1',
+119 silly addNameRange     '1.3.2',
+119 silly addNameRange     '1.3.3',
+119 silly addNameRange     '1.3.4',
+119 silly addNameRange     '1.3.5',
+119 silly addNameRange     '1.3.6',
+119 silly addNameRange     '1.3.7',
+119 silly addNameRange     '1.3.8',
+119 silly addNameRange     '1.3.9',
+119 silly addNameRange     '1.3.10',
+119 silly addNameRange     '1.3.11',
+119 silly addNameRange     '1.3.12' ] ]
+120 verbose addNamed [ 'bower', '1.3.12' ]
+121 verbose addNamed [ '1.3.12', '1.3.12' ]
+122 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+123 verbose lock bower@1.3.12 /Users/andlujan/.npm/9819431c-bower-1-3-12.lock
+124 silly addNameRange number 2 { name: 'nodemon', range: '*', hasData: true }
+125 silly addNameRange versions [ 'nodemon',
+125 silly addNameRange   [ '0.1.4',
+125 silly addNameRange     '0.1.5',
+125 silly addNameRange     '0.1.6',
+125 silly addNameRange     '0.1.7',
+125 silly addNameRange     '0.1.8',
+125 silly addNameRange     '0.2.0',
+125 silly addNameRange     '0.2.1',
+125 silly addNameRange     '0.2.2',
+125 silly addNameRange     '0.3.0',
+125 silly addNameRange     '0.3.1',
+125 silly addNameRange     '0.3.2',
+125 silly addNameRange     '0.4.0',
+125 silly addNameRange     '0.4.1',
+125 silly addNameRange     '0.5.0',
+125 silly addNameRange     '0.5.1',
+125 silly addNameRange     '0.5.2',
+125 silly addNameRange     '0.5.3',
+125 silly addNameRange     '0.5.4',
+125 silly addNameRange     '0.5.5',
+125 silly addNameRange     '0.5.6',
+125 silly addNameRange     '0.5.7',
+125 silly addNameRange     '0.6.0',
+125 silly addNameRange     '0.6.1',
+125 silly addNameRange     '0.6.2',
+125 silly addNameRange     '0.6.3',
+125 silly addNameRange     '0.6.4',
+125 silly addNameRange     '0.6.5',
+125 silly addNameRange     '0.6.6',
+125 silly addNameRange     '0.6.7',
+125 silly addNameRange     '0.6.8',
+125 silly addNameRange     '0.6.9',
+125 silly addNameRange     '0.6.10',
+125 silly addNameRange     '0.6.11',
+125 silly addNameRange     '0.6.12',
+125 silly addNameRange     '0.6.13',
+125 silly addNameRange     '0.6.14',
+125 silly addNameRange     '0.6.15',
+125 silly addNameRange     '0.6.16',
+125 silly addNameRange     '0.6.17',
+125 silly addNameRange     '0.6.18',
+125 silly addNameRange     '0.6.19',
+125 silly addNameRange     '0.6.20',
+125 silly addNameRange     '0.6.21',
+125 silly addNameRange     '0.6.22',
+125 silly addNameRange     '0.6.23',
+125 silly addNameRange     '0.7.0',
+125 silly addNameRange     '0.7.1',
+125 silly addNameRange     '0.7.2',
+125 silly addNameRange     '0.7.3',
+125 silly addNameRange     '0.7.4',
+125 silly addNameRange     '0.7.5',
+125 silly addNameRange     '0.7.6',
+125 silly addNameRange     '0.7.7',
+125 silly addNameRange     '0.7.8',
+125 silly addNameRange     '0.7.10',
+125 silly addNameRange     '0.9.0',
+125 silly addNameRange     '0.9.1',
+125 silly addNameRange     '0.9.2',
+125 silly addNameRange     '0.9.3',
+125 silly addNameRange     '0.9.5',
+125 silly addNameRange     '0.9.6',
+125 silly addNameRange     '0.9.7',
+125 silly addNameRange     '0.9.10',
+125 silly addNameRange     '0.9.11',
+125 silly addNameRange     '0.9.12',
+125 silly addNameRange     '0.9.14',
+125 silly addNameRange     '0.9.16',
+125 silly addNameRange     '0.9.17',
+125 silly addNameRange     '1.0.0',
+125 silly addNameRange     '1.0.1',
+125 silly addNameRange     '1.0.2',
+125 silly addNameRange     '1.0.2-rc',
+125 silly addNameRange     '0.6.10-a',
+125 silly addNameRange     '1.0.2-rc3',
+125 silly addNameRange     '1.0.2-rc4',
+125 silly addNameRange     '1.0.3',
+125 silly addNameRange     '1.0.4',
+125 silly addNameRange     '1.0.5',
+125 silly addNameRange     '1.0.6',
+125 silly addNameRange     '1.0.7',
+125 silly addNameRange     '1.0.8',
+125 silly addNameRange     '1.0.9',
+125 silly addNameRange     '1.0.10',
+125 silly addNameRange     '1.0.11',
+125 silly addNameRange     '1.0.12',
+125 silly addNameRange     '1.0.13',
+125 silly addNameRange     '1.0.14',
+125 silly addNameRange     '1.0.15',
+125 silly addNameRange     '1.0.16',
+125 silly addNameRange     '1.0.17-rc1',
+125 silly addNameRange     '1.0.17-rc2',
+125 silly addNameRange     '1.0.17',
+125 silly addNameRange     '1.0.18',
+125 silly addNameRange     '1.0.19',
+125 silly addNameRange     '1.0.20',
+125 silly addNameRange     '1.1.0-alpha',
+125 silly addNameRange     '1.1.0',
+125 silly addNameRange     '1.1.1',
+125 silly addNameRange     '1.2.0',
+125 silly addNameRange     '1.2.1',
+125 silly addNameRange     '1.3.0-0',
+125 silly addNameRange     '1.3.0-1',
+125 silly addNameRange     '1.3.0-2',
+125 silly addNameRange     '1.3.0-3',
+125 silly addNameRange     '1.3.0-4',
+125 silly addNameRange     '1.3.0-5',
+125 silly addNameRange     '1.3.0-6',
+125 silly addNameRange     '1.3.0-7',
+125 silly addNameRange     '1.3.0',
+125 silly addNameRange     '1.3.1',
+125 silly addNameRange     '1.3.2' ] ]
+126 verbose addNamed [ 'nodemon', '1.3.2' ]
+127 verbose addNamed [ '1.3.2', '1.3.2' ]
+128 silly lockFile eb9c1afd-nodemon-1-3-2 nodemon@1.3.2
+129 verbose lock nodemon@1.3.2 /Users/andlujan/.npm/eb9c1afd-nodemon-1-3-2.lock
+130 silly lockFile b4a698dd-js-org-nodemon-nodemon-1-3-2-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz
+131 verbose lock https://registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz /Users/andlujan/.npm/b4a698dd-js-org-nodemon-nodemon-1-3-2-tgz.lock
+132 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz',
+132 verbose addRemoteTarball   '9d54b0731bb2ce213169ebffd5bed9ea988ae9d8' ]
+133 info retry fetch attempt 1 at 14:37:52
+134 verbose fetch to= /var/folders/gh/nsk4pkrn7l55491pjm6ssxcjy2q68k/T/npm-50889-H58UgZS1/registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz
+135 http GET https://registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz
+136 silly lockFile ad31c554-rg-karma-cli-karma-cli-0-0-4-tgz https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz
+137 silly lockFile ad31c554-rg-karma-cli-karma-cli-0-0-4-tgz https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz
+138 silly lockFile 0ef08b95-karma-cli-0-0-4 karma-cli@0.0.4
+139 silly lockFile 0ef08b95-karma-cli-0-0-4 karma-cli@0.0.4
+140 silly lockFile 8f6f2c72-karma-cli karma-cli@
+141 silly lockFile 8f6f2c72-karma-cli karma-cli@
+142 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+143 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+144 silly lockFile 1240aab1-bower bower@
+145 silly lockFile 1240aab1-bower bower@
+146 http 200 https://registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz
+147 silly lockFile b4a698dd-js-org-nodemon-nodemon-1-3-2-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz
+148 silly lockFile b4a698dd-js-org-nodemon-nodemon-1-3-2-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz
+149 silly lockFile eb9c1afd-nodemon-1-3-2 nodemon@1.3.2
+150 silly lockFile eb9c1afd-nodemon-1-3-2 nodemon@1.3.2
+151 silly lockFile 4f5e51c6-nodemon nodemon@
+152 silly lockFile 4f5e51c6-nodemon nodemon@
+153 silly resolved [ { name: 'gulp',
+153 silly resolved     description: 'The streaming build system',
+153 silly resolved     version: '3.8.10',
+153 silly resolved     homepage: 'http://gulpjs.com',
+153 silly resolved     repository: { type: 'git', url: 'https://github.com/gulpjs/gulp' },
+153 silly resolved     author:
+153 silly resolved      { name: 'Fractal',
+153 silly resolved        email: 'contact@wearefractal.com',
+153 silly resolved        url: 'http://wearefractal.com/' },
+153 silly resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+153 silly resolved     files: [ 'index.js', 'lib', 'bin', 'completion' ],
+153 silly resolved     bin: { gulp: './bin/gulp.js' },
+153 silly resolved     man: [ 'gulp.1' ],
+153 silly resolved     dependencies:
+153 silly resolved      { archy: '^1.0.0',
+153 silly resolved        chalk: '^0.5.0',
+153 silly resolved        deprecated: '^0.0.1',
+153 silly resolved        'gulp-util': '^3.0.0',
+153 silly resolved        interpret: '^0.3.2',
+153 silly resolved        liftoff: '^0.13.2',
+153 silly resolved        minimist: '^1.1.0',
+153 silly resolved        orchestrator: '^0.3.0',
+153 silly resolved        'pretty-hrtime': '^0.2.0',
+153 silly resolved        semver: '^4.1.0',
+153 silly resolved        tildify: '^1.0.0',
+153 silly resolved        v8flags: '^1.0.1',
+153 silly resolved        'vinyl-fs': '^0.3.0' },
+153 silly resolved     devDependencies:
+153 silly resolved      { coveralls: '^2.7.0',
+153 silly resolved        'graceful-fs': '^3.0.0',
+153 silly resolved        istanbul: '^0.3.0',
+153 silly resolved        jshint: '^2.5.0',
+153 silly resolved        'jshint-stylish': '^1.0.0',
+153 silly resolved        'marked-man': '^0.1.3',
+153 silly resolved        mkdirp: '^0.5.0',
+153 silly resolved        mocha: '^2.0.1',
+153 silly resolved        'mocha-lcov-reporter': '^0.0.1',
+153 silly resolved        q: '^1.0.0',
+153 silly resolved        rimraf: '^2.2.5',
+153 silly resolved        should: '^4.0.0' },
+153 silly resolved     scripts:
+153 silly resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+153 silly resolved        lint: 'jshint lib bin index.js --reporter node_modules/jshint-stylish/stylish.js --exclude node_modules',
+153 silly resolved        test: 'npm run-script lint && mocha --reporter spec',
+153 silly resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+153 silly resolved     engineStrict: true,
+153 silly resolved     engines: { node: '>= 0.9' },
+153 silly resolved     licenses: [ [Object] ],
+153 silly resolved     gitHead: '0203bccdc7397991da68ea3e51fef7b2df75a46f',
+153 silly resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+153 silly resolved     _id: 'gulp@3.8.10',
+153 silly resolved     _shasum: 'bfb8fc156be97820f02a7f8b3af61a86666f9e31',
+153 silly resolved     _from: 'gulp@',
+153 silly resolved     _npmVersion: '2.1.6',
+153 silly resolved     _nodeVersion: '0.10.33',
+153 silly resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+153 silly resolved     maintainers: [ [Object] ],
+153 silly resolved     dist:
+153 silly resolved      { shasum: 'bfb8fc156be97820f02a7f8b3af61a86666f9e31',
+153 silly resolved        tarball: 'http://registry.npmjs.org/gulp/-/gulp-3.8.10.tgz' },
+153 silly resolved     directories: {},
+153 silly resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.8.10.tgz',
+153 silly resolved     readme: 'ERROR: No README data found!' },
+153 silly resolved   { name: 'karma-cli',
+153 silly resolved     description: 'The Karma command line interface.',
+153 silly resolved     homepage: 'http://karma-runner.github.io/',
+153 silly resolved     repository:
+153 silly resolved      { type: 'git',
+153 silly resolved        url: 'git://github.com/karma-runner/karma-cli.git' },
+153 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-cli/issues' },
+153 silly resolved     keywords:
+153 silly resolved      [ 'karma',
+153 silly resolved        'spectacular',
+153 silly resolved        'runner',
+153 silly resolved        'karma',
+153 silly resolved        'js',
+153 silly resolved        'javascript',
+153 silly resolved        'testing',
+153 silly resolved        'test',
+153 silly resolved        'remote',
+153 silly resolved        'execution' ],
+153 silly resolved     author: { name: 'Vojta Jína', email: 'vojta.jina@gmail.com' },
+153 silly resolved     contributors: [ [Object] ],
+153 silly resolved     dependencies: { resolve: '~0.5.1' },
+153 silly resolved     peerDependencies: {},
+153 silly resolved     devDependencies:
+153 silly resolved      { grunt: '~0.4.1',
+153 silly resolved        'grunt-contrib-jshint': '~0.7.2',
+153 silly resolved        'grunt-coffeelint': '0.0.7',
+153 silly resolved        'grunt-bump': '0.0.11',
+153 silly resolved        'grunt-npm': '0.0.2',
+153 silly resolved        'grunt-auto-release': '0.0.4',
+153 silly resolved        'grunt-conventional-changelog': '~1.0.0' },
+153 silly resolved     preferGlobal: true,
+153 silly resolved     bin: { karma: './bin/karma' },
+153 silly resolved     engines: { node: '~0.8 || ~0.10' },
+153 silly resolved     version: '0.0.4',
+153 silly resolved     _id: 'karma-cli@0.0.4',
+153 silly resolved     dist:
+153 silly resolved      { shasum: '1840a6a2545754bb02100f09229cdd9963a6cf68',
+153 silly resolved        tarball: 'http://registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz' },
+153 silly resolved     _from: 'karma-cli@',
+153 silly resolved     _npmVersion: '1.3.21',
+153 silly resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+153 silly resolved     maintainers: [ [Object] ],
+153 silly resolved     directories: {},
+153 silly resolved     _shasum: '1840a6a2545754bb02100f09229cdd9963a6cf68',
+153 silly resolved     _resolved: 'https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.4.tgz' },
+153 silly resolved   { name: 'bower',
+153 silly resolved     version: '1.3.12',
+153 silly resolved     description: 'The browser package manager',
+153 silly resolved     author: { name: 'Twitter' },
+153 silly resolved     licenses: [ [Object] ],
+153 silly resolved     repository: { type: 'git', url: 'https://github.com/bower/bower' },
+153 silly resolved     main: 'lib',
+153 silly resolved     homepage: 'http://bower.io',
+153 silly resolved     engines: { node: '>=0.10.0' },
+153 silly resolved     dependencies:
+153 silly resolved      { abbrev: '~1.0.4',
+153 silly resolved        archy: '0.0.2',
+153 silly resolved        'bower-config': '~0.5.2',
+153 silly resolved        'bower-endpoint-parser': '~0.2.2',
+153 silly resolved        'bower-json': '~0.4.0',
+153 silly resolved        'bower-logger': '~0.2.2',
+153 silly resolved        'bower-registry-client': '~0.2.0',
+153 silly resolved        cardinal: '0.4.0',
+153 silly resolved        chalk: '0.5.0',
+153 silly resolved        chmodr: '0.1.0',
+153 silly resolved        'decompress-zip': '0.0.8',
+153 silly resolved        fstream: '~1.0.2',
+153 silly resolved        'fstream-ignore': '~1.0.1',
+153 silly resolved        glob: '~4.0.2',
+153 silly resolved        'graceful-fs': '~3.0.1',
+153 silly resolved        handlebars: '~2.0.0',
+153 silly resolved        inquirer: '0.7.1',
+153 silly resolved        insight: '0.4.3',
+153 silly resolved        'is-root': '~1.0.0',
+153 silly resolved        junk: '~1.0.0',
+153 silly resolved        lockfile: '~1.0.0',
+153 silly resolved        'lru-cache': '~2.5.0',
+153 silly resolved        mkdirp: '0.5.0',
+153 silly resolved        mout: '~0.9.0',
+153 silly resolved        nopt: '~3.0.0',
+153 silly resolved        opn: '~1.0.0',
+153 silly resolved        osenv: '0.1.0',
+153 silly resolved        'p-throttler': '0.1.0',
+153 silly resolved        promptly: '0.2.0',
+153 silly resolved        q: '~1.0.1',
+153 silly resolved        request: '~2.42.0',
+153 silly resolved        'request-progress': '0.3.0',
+153 silly resolved        retry: '0.6.0',
+153 silly resolved        rimraf: '~2.2.0',
+153 silly resolved        semver: '~2.3.0',
+153 silly resolved        'shell-quote': '~1.4.1',
+153 silly resolved        'stringify-object': '~1.0.0',
+153 silly resolved        'tar-fs': '0.5.2',
+153 silly resolved        tmp: '0.0.23',
+153 silly resolved        'update-notifier': '0.2.0',
+153 silly resolved        which: '~1.0.5' },
+153 silly resolved     devDependencies:
+153 silly resolved      { coveralls: '~2.11.0',
+153 silly resolved        'expect.js': '~0.3.1',
+153 silly resolved        grunt: '~0.4.4',
+153 silly resolved        'grunt-cli': '^0.1.13',
+153 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+153 silly resolved        'grunt-contrib-watch': '~0.6.1',
+153 silly resolved        'grunt-exec': '~0.4.2',
+153 silly resolved        'grunt-simple-mocha': '~0.4.0',
+153 silly resolved        istanbul: '~0.3.2',
+153 silly resolved        'load-grunt-tasks': '~0.6.0',
+153 silly resolved        mocha: '~1.21.4',
+153 silly resolved        nock: '~0.46.0',
+153 silly resolved        'node-uuid': '~1.4.1',
+153 silly resolved        proxyquire: '~1.0.1' },
+153 silly resolved     scripts: { test: 'grunt test' },
+153 silly resolved     bin: { bower: 'bin/bower' },
+153 silly resolved     preferGlobal: true,
+153 silly resolved     gitHead: 'b26c072f0db054a1902ec4d2e3726dbf8a1c799a',
+153 silly resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+153 silly resolved     _id: 'bower@1.3.12',
+153 silly resolved     _shasum: '37de0edb3904baf90aee13384a1a379a05ee214c',
+153 silly resolved     _from: 'bower@',
+153 silly resolved     _npmVersion: '2.0.0',
+153 silly resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+153 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+153 silly resolved     dist:
+153 silly resolved      { shasum: '37de0edb3904baf90aee13384a1a379a05ee214c',
+153 silly resolved        tarball: 'http://registry.npmjs.org/bower/-/bower-1.3.12.tgz' },
+153 silly resolved     directories: {},
+153 silly resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.3.12.tgz',
+153 silly resolved     readme: 'ERROR: No README data found!' },
+153 silly resolved   { name: 'nodemon',
+153 silly resolved     homepage: 'http://nodemon.io',
+153 silly resolved     author: { name: 'Remy Sharp', url: 'http://github.com/remy' },
+153 silly resolved     bin: { nodemon: './bin/nodemon.js' },
+153 silly resolved     engines: { node: '>=0.8' },
+153 silly resolved     repository: { type: 'git', url: 'http://github.com/remy/nodemon.git' },
+153 silly resolved     description: 'Simple monitor script for use during development of a node.js app.',
+153 silly resolved     keywords:
+153 silly resolved      [ 'monitor',
+153 silly resolved        'development',
+153 silly resolved        'restart',
+153 silly resolved        'autoload',
+153 silly resolved        'reload',
+153 silly resolved        'terminal' ],
+153 silly resolved     version: '1.3.2',
+153 silly resolved     preferGlobal: 'true',
+153 silly resolved     licenses: [ [Object] ],
+153 silly resolved     main: './lib/nodemon',
+153 silly resolved     scripts:
+153 silly resolved      { coverage: 'istanbul cover _mocha -- --timeout 30000 --ui bdd --reporter list test/**/*.test.js',
+153 silly resolved        ':test': 'mocha --timeout 30000 --ui bdd test/**/*.test.js',
+153 silly resolved        test: 'for FILE in test/**/*.test.js; do echo $FILE; ./node_modules/.bin/mocha --timeout 30000 $FILE; if [ $? -ne 0 ]; then exit 1; fi; sleep 1; done',
+153 silly resolved        web: 'node web' },
+153 silly resolved     devDependencies:
+153 silly resolved      { 'coffee-script': '~1.7.1',
+153 silly resolved        connect: '~2.19.1',
+153 silly resolved        istanbul: '~0.2.10',
+153 silly resolved        mocha: '^2.0.1',
+153 silly resolved        should: '~4.0.0' },
+153 silly resolved     dependencies:
+153 silly resolved      { touch: '~0.0.3',
+153 silly resolved        minimatch: '~0.3.0',
+153 silly resolved        'ps-tree': '~0.0.3',
+153 silly resolved        'update-notifier': '~0.1.8' },
+153 silly resolved     gitHead: 'ceeea718708dfec3e913fae7e904e6ead699ca06',
+153 silly resolved     bugs: { url: 'https://github.com/remy/nodemon/issues' },
+153 silly resolved     _id: 'nodemon@1.3.2',
+153 silly resolved     _shasum: '9d54b0731bb2ce213169ebffd5bed9ea988ae9d8',
+153 silly resolved     _from: 'nodemon@',
+153 silly resolved     _npmVersion: '1.4.28',
+153 silly resolved     _npmUser: { name: 'remy', email: 'remy@remysharp.com' },
+153 silly resolved     maintainers: [ [Object] ],
+153 silly resolved     dist:
+153 silly resolved      { shasum: '9d54b0731bb2ce213169ebffd5bed9ea988ae9d8',
+153 silly resolved        tarball: 'http://registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz' },
+153 silly resolved     directories: {},
+153 silly resolved     _resolved: 'https://registry.npmjs.org/nodemon/-/nodemon-1.3.2.tgz' } ]
+154 info install gulp@3.8.10 into /usr/local/lib
+155 info install karma-cli@0.0.4 into /usr/local/lib
+156 info install bower@1.3.12 into /usr/local/lib
+157 info install nodemon@1.3.2 into /usr/local/lib
+158 info installOne gulp@3.8.10
+159 info installOne karma-cli@0.0.4
+160 info installOne bower@1.3.12
+161 info installOne nodemon@1.3.2
+162 verbose lib/node_modules/gulp unbuild
+163 verbose lib/node_modules/bower unbuild
+164 verbose lib/node_modules/karma-cli unbuild
+165 verbose lib/node_modules/nodemon unbuild
+166 info preuninstall gulp@3.8.10
+167 info uninstall gulp@3.8.10
+168 verbose tar unpack /Users/andlujan/.npm/karma-cli/0.0.4/package.tgz
+169 silly lockFile f15a2687-local-lib-node-modules-karma-cli tar:///usr/local/lib/node_modules/karma-cli
+170 verbose lock tar:///usr/local/lib/node_modules/karma-cli /Users/andlujan/.npm/f15a2687-local-lib-node-modules-karma-cli.lock
+171 silly lockFile e0ed68ce--npm-karma-cli-0-0-4-package-tgz tar:///Users/andlujan/.npm/karma-cli/0.0.4/package.tgz
+172 verbose lock tar:///Users/andlujan/.npm/karma-cli/0.0.4/package.tgz /Users/andlujan/.npm/e0ed68ce--npm-karma-cli-0-0-4-package-tgz.lock
+173 verbose tar unpack /Users/andlujan/.npm/nodemon/1.3.2/package.tgz
+174 silly lockFile 15c6d46c-r-local-lib-node-modules-nodemon tar:///usr/local/lib/node_modules/nodemon
+175 verbose lock tar:///usr/local/lib/node_modules/nodemon /Users/andlujan/.npm/15c6d46c-r-local-lib-node-modules-nodemon.lock
+176 silly lockFile 40ce7cbb-an-npm-nodemon-1-3-2-package-tgz tar:///Users/andlujan/.npm/nodemon/1.3.2/package.tgz
+177 verbose lock tar:///Users/andlujan/.npm/nodemon/1.3.2/package.tgz /Users/andlujan/.npm/40ce7cbb-an-npm-nodemon-1-3-2-package-tgz.lock
+178 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild gulp@3.8.10
+179 verbose /usr/local/bin,[object Object] binRoot
+180 silly gunzTarPerm modes [ '755', '644' ]
+181 silly gunzTarPerm modes [ '755', '644' ]
+182 info postuninstall gulp@3.8.10
+183 error Error: EACCES, mkdir '/usr/local/lib/node_modules/nodemon'
+183 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/nodemon']
+183 error   errno: 3,
+183 error   code: 'EACCES',
+183 error   path: '/usr/local/lib/node_modules/nodemon',
+183 error   fstream_type: 'Directory',
+183 error   fstream_path: '/usr/local/lib/node_modules/nodemon',
+183 error   fstream_class: 'DirWriter',
+183 error   fstream_stack:
+183 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+183 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+183 error      'Object.oncomplete (fs.js:108:15)' ] }
+184 error Please try running this command again as root/Administrator.
+185 error System Darwin 13.3.0
+186 error command "node" "/usr/local/bin/npm" "install" "-g" "bower" "gulp" "karma-cli" "nodemon"
+187 error cwd /Users/andlujan/sites/javascript/css3lab
+188 error node -v v0.10.35
+189 error npm -v 1.4.28
+190 error path /usr/local/lib/node_modules/nodemon
+191 error fstream_path /usr/local/lib/node_modules/nodemon
+192 error fstream_type Directory
+193 error fstream_class DirWriter
+194 error code EACCES
+195 error errno 3
+196 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/nodemon'
+197 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+197 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+197 error fstream_stack Object.oncomplete (fs.js:108:15)
+198 verbose exit [ 3, true ]
