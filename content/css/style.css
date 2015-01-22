@@ -24,6 +24,7 @@
 
 .square > h3 {
 	visibility: hidden;
+	transform: scaleX(-1);
 }
 
 .square:hover {
