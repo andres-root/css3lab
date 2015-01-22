@@ -26,6 +26,7 @@
 }
 
 .square > h3 {
+	backface-visibility:hidden;
 	-moz-backface-visibility:hidden;
 }
 
