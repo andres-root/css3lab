@@ -32,3 +32,9 @@
 	transform: rotateY(0);
 }
 
+.animate {
+	width: 200px;
+	height: 200px;
+	border-radius: 500px;
+	background-color: #8e44ad;
+}
