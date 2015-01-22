@@ -27,7 +27,7 @@
 }
 
 .square:hover {
-	transform: rotateX(360deg);
+	transform: rotateY(180deg);
 }
 
 .square:hover > h3 {
