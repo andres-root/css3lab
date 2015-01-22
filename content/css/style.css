@@ -37,4 +37,22 @@
 	height: 200px;
 	border-radius: 500px;
 	background-color: #8e44ad;
+	animation: move 2s ease 0s infinite alternate;
+	-moz-animation: move-it 2s ease 0s infinite alternate;
+	-webkit-animation: move-it 2s ease 0s infinite alternate;
+}
+
+@keyframes move-it {
+	from { left: 100px;}
+	to { left: 700px;}
+}
+
+@-webkit-keyframes move-it {
+	from { left: 100px;}
+	to { left: 700px;}
+}
+
+@-moz-keyframes move-it {
+	from { left: 100px;}
+	to { left: 700px;}
 }
