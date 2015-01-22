@@ -24,7 +24,9 @@
 
 .square > h3 {
 	visibility: hidden;
+	opacity: 0;
 	transform: scaleX(-1);
+	transition: all 0.5s ease-in-out;
 }
 
 .square:hover {
@@ -33,4 +35,5 @@
 
 .square:hover > h3 {
 	visibility: visible;
+	opacity: 1;
 }
